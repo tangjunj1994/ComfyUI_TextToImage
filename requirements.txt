@@ -1,0 +1,18 @@
+# ComfyUI TextToImage Plugin Dependencies
+# BytePlus Seedream 4.5/4.0 Text-to-Image Generation
+# 参考文档: https://docs.byteplus.com/en/docs/ModelArk/1824121
+
+# BytePlus官方Ark SDK
+byteplus-python-sdk-v2
+
+# HTTP请求
+requests>=2.28.0
+
+# 图片处理
+Pillow>=9.0.0
+
+# 数值计算 (ComfyUI已包含)
+numpy>=1.21.0
+
+# PyTorch (ComfyUI已包含)
+# torch>=1.13.0
