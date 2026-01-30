@@ -679,7 +679,7 @@ class SeedreamImageToBatchImage:
             error_msg = f"❌ 图生批量图片时发生错误: {str(e)}"
             print(error_msg)
             import traceback
-            traceback.print_exc()
+            error_msg += traceback.print_exc()
             empty_image = self._create_empty_image()
             return (empty_image, error_msg)
     
